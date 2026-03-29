@@ -1,0 +1,57 @@
+# Java / Spring Boot / Maven
+**/target/
+**/*.jar
+**/*.war
+**/*.ear
+**/classes/
+**/generated-sources/
+.mvn/
+mvnw
+mvnw.cmd
+
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+.DS_Store
+
+
+# Logs
+**/logs/
+**/*.log
+
+
+#Helm
+estore-chart/charts/*.tgz
+estore-chart/requirements.lock
+
+
+# Environment variables / Secrets
+.env.*
+*.env
+*.secret.yaml
+**/secrets.yaml
+
+
+# Binaries / Tools
+trivy
+
+
+# OS
+Thumbs.db
+Desktop.ini
+
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
